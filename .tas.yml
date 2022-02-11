@@ -1,0 +1,16 @@
+--- 
+framework: jest
+postMerge: 
+  pattern: 
+    - "**/*.test.js"
+postRun: 
+  command: 
+    - "node --version"  
+preMerge: 
+  pattern: 
+    - "**/*.test.js"
+nodeVersion: 8.0.0
+preRun: 
+  command: 
+    - npm ci    
+
