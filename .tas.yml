@@ -9,7 +9,6 @@ postRun:
 preMerge: 
   pattern: 
     - "**/*.test.js"
-nodeVersion: 8.0.0
 preRun: 
   command: 
     - npm ci    
